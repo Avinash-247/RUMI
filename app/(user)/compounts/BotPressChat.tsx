@@ -10,7 +10,6 @@ export default function BotpressChat() {
   useEffect(() => {
     if (isMounted.current) return
     isMounted.current = true
-
     const initBotpress = () => {
       window.botpressWebChat.init({
         botId: botId,
